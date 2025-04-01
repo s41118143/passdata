@@ -1,6 +1,6 @@
 from django.shortcuts import render
 import random  # 加入 random 套件
-form django.http import HttpResponse
+from django.http import HttpResponse
 
 def id(request):
    return HttpResponse("41118143,李柏翰")
